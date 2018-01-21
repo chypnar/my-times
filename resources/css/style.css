@@ -13,7 +13,7 @@ body {
 	width: 640px;
 	align-items: center;
 	font-family: Verdana;
-  font-size: 14px;
+ 	font-size: 14px;
 
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .large {
-	width: 640px;
+	width: 630px;
 }
 
 .medium {
@@ -61,8 +61,34 @@ body {
 
 .photo {
 	border: 1px solid black;
+	display: flex;
+	font-family: Georgia;
+ 	font-weight: bold;
+ 	font-size: 30px;
+  	color: white;
 }
 
 .story {
 	border: 1px solid black;
+}
+
+.main .photo {
+	background-image: url("../images/img-story-main.png");
+	font-size: 40px;
+	width: 630px;
+	height: 300px;
+}
+
+.teaser #left.photo {
+	background-image:  url("../images/img-story-2.png");
+}
+
+.teaser #right.photo {
+	background-image:  url("../images/img-story-3.png");
+}
+
+.teaser #cat.photo {
+	background-image:  url("../images/img-story-1.png");
+	width: 300px;
+	height: 300px;
 }
