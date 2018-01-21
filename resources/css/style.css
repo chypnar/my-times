@@ -1,10 +1,68 @@
-.header {
-	font-family: Verdana; 
-	font-size: 14px;
-	font-weight: bold;
-	display: flex;
+body {
 }
 
-.nav li{
+.header {
+	display: flex;
+	font-weight: bold;
+	align-items: center;
+}
+
+.logo {
+	border:  1px solid black;
+	display: flex;
+	width: 640px;
+	align-items: center;
+	font-family: Verdana;
+  font-size: 14px;
+
+}
+
+.logo p {
+	display: inline;
+	color: mediumaquamarine;
+
+}
+
+.nav {
+	justify-content: flex-end;
+}
+
+.nav li {
 	display: inline-block;
+}
+
+
+.content {
+	display: flex;
+	border: 1px solid black;
+	justify-content: space-between;
+}
+
+.column {
+	display: flex;
+	border: 1px solid black;
+}
+
+.large {
+	width: 640px;
+}
+
+.medium {
+	width: 300px;
+}
+
+.small {
+	width: 240px;
+}
+
+.main {
+	border: 1px solid black;
+}
+
+.photo {
+	border: 1px solid black;
+}
+
+.story {
+	border: 1px solid black;
 }
