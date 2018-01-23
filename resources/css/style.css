@@ -5,30 +5,26 @@ body {
 	display: flex;
 	font-weight: bold;
 	align-items: center;
+	font-family: Verdana;
+ 	font-size: 14px;
 }
 
 .logo {
 	border:  1px solid black;
 	display: flex;
-	width: 640px;
 	align-items: center;
-	font-family: Verdana;
- 	font-size: 14px;
-
+	flex-grow: 1;
 }
 
 .logo p {
 	display: inline;
 	color: mediumaquamarine;
-
+	margin-left: 10px;
 }
 
-.nav {
-	justify-content: flex-end;
-}
-
-.nav li {
+.nav span {
 	display: inline-block;
+	justify-content: flex-end;
 }
 
 
@@ -68,8 +64,24 @@ body {
   	color: white;
 }
 
+.photo span {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2, p {
+	display: block;
+}
+
+.stories {
+	display: flex;
+}
+
 .story {
 	border: 1px solid black;
+	display: flex;
+	flex-flow: column wrap;
+	width: 300px;
 }
 
 .main .photo {
@@ -78,16 +90,19 @@ body {
 	width: 630px;
 	height: 300px;
 }
-
-.teaser #left.photo {
+#left.photo {
 	background-image:  url("../images/img-story-2.png");
+	width: 300px;
+	height: 300px;
 }
 
-.teaser #right.photo {
+#right.photo {
 	background-image:  url("../images/img-story-3.png");
+	width: 300px;
+	height: 300px;
 }
 
-.teaser #cat.photo {
+#cat.photo {
 	background-image:  url("../images/img-story-1.png");
 	width: 300px;
 	height: 300px;
